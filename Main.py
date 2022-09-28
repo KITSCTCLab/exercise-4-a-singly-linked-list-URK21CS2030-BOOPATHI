@@ -3,28 +3,13 @@ from typing import Optional
 
 class Node:
     """
-    Provide necessary documentation
-    """
-    def init(self, data=None, next=None):
-        """
-        Provide necessary documentation
-        """
-        self.data = data
-        self.next = next
-
-
-from typing import Optional
-
-
-class Node:
-    """
     This class describes Node objects to act as elements of the LinkedList
     Attributes:
         -> data - stored associated data
         -> next - link to next node
     """
 
-    def _init_(self, data=None, next=None):
+    def __init__(self, data=None, next=None):
         """
         Initialises the Node with given attributes
         """
@@ -42,7 +27,7 @@ class LinkedList:
         -> self.head - contains first node of LinkedList, None if list empty
     """
 
-    def _init_(self):
+    def __init__(self):
         """
         Initialize the head
         """
